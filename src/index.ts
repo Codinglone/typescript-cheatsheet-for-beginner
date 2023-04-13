@@ -128,6 +128,6 @@ class Employee extends Person {
 
 const emp = new Employee(3, 'codinglone', 'Tech Lead')
 
-console.log(emp.register());
+
 
 

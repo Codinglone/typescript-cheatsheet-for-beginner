@@ -63,4 +63,12 @@ class Employee extends Person {
     }
 }
 const emp = new Employee(3, 'codinglone', 'Tech Lead');
-console.log(emp.register());
+function getArray(items) {
+    return new Array().concat(items);
+}
+let numArray = getArray([1, 2, 3, 4]);
+let strArray = getArray(["Chuzzi", "codinglone"]);
+numArray.push(7);
+strArray.push("Javascript");
+console.log(numArray);
+console.log(strArray);
